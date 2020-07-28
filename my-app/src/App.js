@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './helloWorld';
+import IamgoinfToNewWorld from './Iamgoingtonewworld'
 
 function App() {
   return (
@@ -10,24 +12,6 @@ function App() {
     </div>
 
   );
-}
-
-function IamgoinfToNewWorld() {
-    return (
-        <div>
-          <a href="#k"> IamgoinfToNewWorld</a>
-        </div>
-
-    );
-
-}
-
-function HelloWorld() {
-    return (
-        <div>
-        <a href="#s">hello world</a>
-        </div>
-    );
 }
 
 export default App;
