@@ -1,9 +1,7 @@
 
-.content {
+.posts {
     grid-area: c;
     background-color: chocolate;
 }
 
-.content img {
-    width: 100px;
-}
+
