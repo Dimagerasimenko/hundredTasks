@@ -1,11 +1,13 @@
 import React from 'react';
+import cssModule from './Profile.module.css'
 
 function Profile() {
     return (
-        <div className="content">
+        <div className={cssModule.content}>
             <div>
-                <img src='https://lh3.googleusercontent.com/proxy/4mZ91qDHH7ZUoGIk45_o1sg25Au5WQVpHSO3bpV9mk9f-jHEQ1B7Ec2uMKPUiL_QTqTrJN2xqujZBjLwjqwuSAQ0saYicZopQueswrcPIROOib-MAGTkg_Degu0v_M0Dlj0O6T83eiY'
-                     alt='img'></img>
+                <img
+                    src="https://lendmeyourear.net/images/how-to-embed-silverlight-using-javascript/cover.jpg"
+                    alt='img'></img>
             </div>
             <div>
                 ava+description
