@@ -10,9 +10,9 @@ function MyPosts() {
             </div>
             <div>
                 <p>New post</p>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post message='Hi, how are you' about='//second argument'/>
+                <Post message="It's my first post"/>
+
             </div>
         </div>
     );
