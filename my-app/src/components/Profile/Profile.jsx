@@ -1,6 +1,6 @@
 import React from 'react';
-import cssModule from './Profile.module.css'
-import MyPosts from './MyPosts/MyPosts'
+import cssModule from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts';
 
 function Profile() {
     return (

@@ -7,16 +7,16 @@ function Navbar() {
         <nav className={cssModule.nav}>
             <ul>
                 <li className={cssModule.item}>
-                    <a href="#w" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Profile</a>
+                    <a href="/profile" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Profile</a>
                 </li>
                 <li className={cssModule.item}>
-                    <a href="#w" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Messages</a>
+                    <a href="/dialogs" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Messages</a>
                 </li>
                 <li className={cssModule.item}>
-                     <a href="#w" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>News</a>
+                     <a href="/News" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>News</a>
                 </li>
                 <li className={cssModule.item}>
-                    <a href="#w" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</a>
+                    <a href="Music" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</a>
                 </li>
             </ul>
         </nav>
