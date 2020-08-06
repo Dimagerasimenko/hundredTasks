@@ -1,5 +1,6 @@
 import React from 'react';
 import cssModule from './Navbar.module.css';
+import {NavLink} from "react-router-dom";
 
 
 function Navbar() {
@@ -7,19 +8,21 @@ function Navbar() {
         <nav className={cssModule.nav}>
             <ul>
                 <li className={cssModule.item}>
-                    <a href="/profile" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Profile</a>
+                    <NavLink to="/profile" className={`${cssModule.linkNav} ${cssModule.linkHover}`}
+                             activeClassName={cssModule.linkActive}>
+                    Profile</NavLink>
+            </li>
+                <li className={cssModule.item}>
+                    <NavLink to="/dialogs" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Messages</NavLink>
                 </li>
                 <li className={cssModule.item}>
-                    <a href="/dialogs" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Messages</a>
+                     <NavLink to="/News" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>News</NavLink>
                 </li>
                 <li className={cssModule.item}>
-                     <a href="/News" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>News</a>
+                    <NavLink to="/Music" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</NavLink>
                 </li>
                 <li className={cssModule.item}>
-                    <a href="/Music" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</a>
-                </li>
-                <li className={cssModule.item}>
-                    <a href="/Setting" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Setting</a>
+                    <NavLink to="/Setting" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Setting</NavLink>
                 </li>
             </ul>
         </nav>
