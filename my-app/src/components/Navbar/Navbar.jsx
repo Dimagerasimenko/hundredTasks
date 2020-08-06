@@ -16,7 +16,10 @@ function Navbar() {
                      <a href="/News" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>News</a>
                 </li>
                 <li className={cssModule.item}>
-                    <a href="Music" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</a>
+                    <a href="/Music" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Music</a>
+                </li>
+                <li className={cssModule.item}>
+                    <a href="/Setting" className={`${cssModule.linkNav} ${cssModule.linkActive} ${cssModule.linkHover}`}>Setting</a>
                 </li>
             </ul>
         </nav>

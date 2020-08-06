@@ -3,8 +3,8 @@ import cssModule from './Dialogs.module.css'
 
 const Dialogs = (props) => {
     return (
-        <div>
-            Dialogs
+        <div className={cssModule.dialogsBox}>
+            <p>dialogs</p>
         </div>
     )
 

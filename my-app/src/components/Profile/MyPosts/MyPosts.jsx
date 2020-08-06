@@ -2,7 +2,7 @@ import React from 'react';
 import cssModule from './MyPosts.module.css';
 import Post from './Post/Post';
 
-function MyPosts() {
+function MyPosts(props) {
     return (
         <div className={cssModule.posts}>
             <div>
