@@ -9,6 +9,7 @@ import Setting from "./components/Setting/Setting";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 
+// exact - это атрибут указывающий на то, что path в адресной строке браузера должен совпадать полностью
 
 function App() {
     return (
@@ -17,7 +18,7 @@ function App() {
                 <Header/>
                 <Navbar/>
                 <div className="app-wrapper__content">
-                    <Route path='/profile' component={Profile}/>
+                    <Route exact path='/profile' component={Profile}/>
                     <Route path='/dialogs' component={Dialogs}/>
                     <Route path='/news' component={News}/>
                     <Route path='/music' component={Music}/>
