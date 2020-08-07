@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20691a25-d791-418b-b87f-8688e001a803" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +52,8 @@
       <file leaf-file-name="MyPosts.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -361,7 +357,7 @@
       <workItem from="1596743045603" duration="7350000" />
       <workItem from="1596788996368" duration="2802000" />
       <workItem from="1596802300113" duration="2087000" />
-      <workItem from="1596836203085" duration="2466000" />
+      <workItem from="1596836203085" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_9">
       <created>1595972183440</created>
@@ -405,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596793497389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson_25 Topic using map for components Dialog and Posts">
+      <created>1596838946621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596838946621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91103000" />
+    <option name="totallyTimeSpent" value="91383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,14 +427,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26985854" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26985854" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -457,7 +460,8 @@
     <MESSAGE value="lesson_19 Topic Router" />
     <MESSAGE value="lesson_20 Topic &lt;NavLink to='/adress'&gt;&lt;/NavLink&gt; instead &lt;a href='/adress'&gt;&lt;/a&gt;" />
     <MESSAGE value="lesson_24 Topic using objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_24 Topic using objects" />
+    <MESSAGE value="lesson_25 Topic using map for components Dialog and Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_25 Topic using map for components Dialog and Posts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/Profile/MyPosts/MyPosts.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
