@@ -17,7 +17,9 @@ function App() {
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
+
                 <div className="app-wrapper__content">
+
                     <Route exact path='/profile' component={Profile}/>
                     <Route path='/dialogs' component={Dialogs}/>
                     <Route path='/news' component={News}/>
