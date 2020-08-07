@@ -9,7 +9,8 @@ function Post(props) {
     return (
         <div className={cssModule.post}>
             <img src="#s" alt="img"/>
-            <span className={cssModule.item}>{props.message} {props.about} </span>
+            <span className={cssModule.item}>{props.message} </span>
+            <p> likes: {props.likesCount}</p>
         </div>
     );
 }

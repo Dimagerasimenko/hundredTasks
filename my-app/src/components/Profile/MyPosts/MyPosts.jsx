@@ -3,6 +3,11 @@ import cssModule from './MyPosts.module.css';
 import Post from './Post/Post';
 
 function MyPosts(props) {
+    let postData = [
+        {id: 1, message: 'How are You', likesCount: 12},
+        {id: 2, message: 'It\'s my first post', likesCount: 15}
+    ];
+
     return (
         <div className={cssModule.posts}>
             <div>
@@ -10,8 +15,8 @@ function MyPosts(props) {
             </div>
             <div>
                 <p>New post</p>
-                <Post message='Hi, how are you' about='//second argument'/>
-                <Post message="It's my first post"/>
+                <Post message={postData[0].message} likesCount={postData[0].likesCount}/>
+                <Post message={postData[1].message} likesCount={postData[1].likesCount}/>
 
             </div>
         </div>
