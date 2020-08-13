@@ -10,7 +10,7 @@ function Profile(props) {
     return (
         <div className={cssModule.content}>
             <ProfileInfo/>
-            <MyPosts postData={props.postData}/>
+            <MyPosts postData={props.state.postData}/>
         </div>
     );
 }
