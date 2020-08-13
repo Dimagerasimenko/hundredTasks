@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20691a25-d791-418b-b87f-8688e001a803" name="Default" comment="" />
+    <list default="true" id="20691a25-d791-418b-b87f-8688e001a803" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -363,7 +371,7 @@
       <workItem from="1597250901452" duration="8523000" />
       <workItem from="1597325474227" duration="2019000" />
       <workItem from="1597329949587" duration="2438000" />
-      <workItem from="1597340902436" duration="2311000" />
+      <workItem from="1597340902436" duration="1939000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_9">
       <created>1595972183440</created>
@@ -428,18 +436,11 @@
       <option name="project" value="LOCAL" />
       <updated>1597267254612</updated>
     </task>
-    <task id="LOCAL-00010" summary="lesson_29 topic state">
-      <created>1597343468041</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1597343468041</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113621000" />
+    <option name="totallyTimeSpent" value="113249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +452,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17386723" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
@@ -488,8 +489,7 @@
     <MESSAGE value="lesson_24 Topic using objects" />
     <MESSAGE value="lesson_25 Topic using map for components Dialog and Posts" />
     <MESSAGE value="lesson_28 Topic replace dates from components to index file" />
-    <MESSAGE value="lesson_29 topic state" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_29 topic state" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_28 Topic replace dates from components to index file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
