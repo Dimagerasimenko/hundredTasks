@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: red;
+}
+
+.item {
+    list-style: none;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: white;
+}
+
+.linkActive:active {
+    color: red;
+
+}
+
+.linkHover:hover {
+    background-color: greenyellow;
+}
